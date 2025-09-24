@@ -12,9 +12,49 @@ export default function AppMain() {
 
     return (
         <main>
-            <div className="bg-dark">
-                <div className="container text-white mt-4 p-5"><h1 style={{textAlign: 'center'}}>{title}</h1></div>
+            <div className="title-section">
+                <div className="container"><h1>{title}</h1></div>
             </div>
+
+            <div className='main-bg'>
+
+                <div className="container">
+
+                    <div className="row">
+                        <div>
+                            <img src={dcIcon} alt="" className='main-icon' />
+                            <div>
+                                <a href="">DIGITAL COMICS</a>
+                            </div>
+                        </div>
+                        <div>
+                            <img src={merchandiseIcon} alt="" className='main-icon' />
+                            <div>
+                                <a href="">DC MERCHANDISE</a>
+                            </div>
+                        </div>
+                        <div>
+                            <img src={subscriptionIcon} alt="" className='main-icon' />
+                            <div>
+                                <a href="">SUBSCRIPTION</a>
+                            </div>
+                        </div>
+                        <div>
+                            <img src={shopLocatorIcon} alt="" className='main-icon' />
+                            <div>
+                                <a href="">COMIC SHOP LOCATOR</a>
+                            </div>
+                        </div>
+                        <div>
+                            <img src={dcPowerVisaIcon} alt="" className='main-icon' />
+                            <div>
+                                <a href="">DC POWER VISA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </main>
     )
 }
