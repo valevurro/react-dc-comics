@@ -6,6 +6,7 @@
 .container
 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 80%;
@@ -39,9 +40,17 @@ header a:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
   margin-top: 10px;
   margin-bottom: 5px;
 }
+
+/* .row div {
+  text-align: center;
+  flex: 1 1 calc(20% - 20%);
+  max-width: 200px;
+} */
 
 .row a{
   margin: 0 16px;
@@ -76,7 +85,6 @@ main a:hover {
   width: 50px;
   height: 50px;
   object-fit: contain;
-  display: block;
   margin: 0 auto 10px auto;
 }
 
