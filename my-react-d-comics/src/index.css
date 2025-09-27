@@ -100,6 +100,13 @@ main a:hover {
   background-position: 80%, center;
 }
 
+.bg-jumbotron {
+  background-image: url('./assets/img/jumbotron.jpg');
+  height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .color-follow{
   color: #0282f9;
 }
