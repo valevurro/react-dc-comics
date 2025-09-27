@@ -90,3 +90,38 @@ main a:hover {
 .main-bg {
   background-color: #0282f9;
 }
+
+/*footer*/
+
+.dc-image{
+  background-image: url('./assets/img/dc-logo-bg.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 730px, cover;
+  background-position: 80%, center;
+}
+
+.color-follow{
+  color: #0282f9;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 8px;
+}
+
+footer a {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  color: #656359;
+  font-size: 11px;
+
+}
+
+footer a:hover {
+  color: #0282f9;
+}
