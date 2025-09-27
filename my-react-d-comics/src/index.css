@@ -46,17 +46,17 @@ header a:hover{
   margin-bottom: 5px;
 }
 
-/* .row div {
+.row div {
   text-align: center;
   flex: 1 1 calc(20% - 20%);
   max-width: 200px;
-} */
+}
 
 .row a{
   margin: 0 16px;
 }
 
-.title-section {
+main .title-section {
   background-color: black;
   color: white; 
   padding: 20px 0; 
@@ -74,7 +74,6 @@ header a:hover{
 main a {
   color: white;
   text-decoration: none;
-  font-family: 'Open Sans Variable', sans-serif;
 }
 
 main a:hover {
