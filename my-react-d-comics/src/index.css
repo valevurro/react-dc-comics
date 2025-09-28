@@ -39,9 +39,10 @@ header a:hover{
 .bg-jumbotron {
   background-image: url('./assets/img/jumbotron.jpg');
   height: 480px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+  width: 100%;
   margin-top: 29px;
 }
 
