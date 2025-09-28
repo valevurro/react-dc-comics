@@ -99,37 +99,78 @@ main a:hover {
 
 .main-bg {
   background-color: #0282f9;
+  padding: 40px 0;
+}
+
+.main-bg .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+
+.main-bg .row div {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.main-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.main-bg a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main-bg a:hover {
+  color: #000;
 }
 
 /*footer*/
 
-.dc-image{
+.dc-image {
   background-image: url('./assets/img/dc-logo-bg.png');
-  background-repeat: no-repeat, no-repeat;
-  background-size: 730px, cover;
-  background-position: 80%, center;
+  background-repeat: no-repeat;
+  background-size: 730px;
+  background-position: right center;
+  color: white;
 }
 
 .color-follow{
   color: #0282f9;
 }
 
+footer h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 footer ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 footer ul li {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 footer a {
   text-decoration: none;
   display: block;
   text-align: left;
-  color: #656359;
-  font-size: 11px;
-
+  color: #aaa;
+  font-size: 12px;
 }
 
 footer a:hover {
