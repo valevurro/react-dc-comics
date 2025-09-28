@@ -3,6 +3,7 @@ import twitterIcon from '../assets/img/footer-twitter.png';
 import youtubeIcon from '../assets/img/footer-youtube.png';
 import pinterestIcon from '../assets/img/footer-pinterest.png';
 import periscopeIcon from '../assets/img/footer-periscope.png';
+import footerBackgroung from '../assets/img/footer-bg.jpg';
 
 
 const footerDinamic = [
@@ -61,23 +62,26 @@ const footerDinamic = [
 export default function AppFooter(){
     return (
         <footer>
-            <div className='dc-image'>
-                <div className='container d-flex align-items-start p-5'>
-                    <div className='row'>
-                        {footerDinamic.map((itemTitle, idTitle) => (
-                            <div className='col pt-5 p-3' key={idTitle}>
-                                <h5 className='text-light'>{itemTitle.title}</h5>
-                                <ul>
-                                    {itemTitle.list.map((itemList, idList) =>
-                                        <li key={idList}>
-                                            <a href="">{itemList.label}</a>
-                                        </li>)}
-                                </ul>
-                            </div>
-                        ))}
+            <div className='footer-bg' style={{ backgroundImage: `url(${footerBackgroung})` }}>
+                <div className='dc-image'>
+                    <div className='container d-flex align-items-start p-5'>
+                        <div className='row'>
+                            {footerDinamic.map((itemTitle, idTitle) => (
+                                <div className='col pt-5 p-3' key={idTitle}>
+                                    <h5 className='text-light'>{itemTitle.title}</h5>
+                                    <ul>
+                                        {itemTitle.list.map((itemList, idList) =>
+                                            <li key={idList}>
+                                                <a href="">{itemList.label}</a>
+                                            </li>)}
+                                    </ul>
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                </div>
+                </div> 
             </div>
+ 
 
             <div className='bg-dark'>
                 <div className='container'>

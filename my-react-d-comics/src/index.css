@@ -36,6 +36,15 @@ header a:hover{
 
 /*main*/
 
+.bg-jumbotron {
+  background-image: url('./assets/img/jumbotron.jpg');
+  height: 480px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-top: 29px;
+}
+
 .row{
   display: flex;
   justify-content: space-between;
@@ -98,13 +107,6 @@ main a:hover {
   background-repeat: no-repeat, no-repeat;
   background-size: 730px, cover;
   background-position: 80%, center;
-}
-
-.bg-jumbotron {
-  background-image: url('./assets/img/jumbotron.jpg');
-  height: 480px;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .color-follow{
